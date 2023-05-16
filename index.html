@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Image Slider</title>
+            <link rel="stylesheet" href="styles.css">
+            <script src="script.js" defer></script> <!--Defer causes script to load after html-->
+        </head>
+        <body>  
+            <section aria-label="Photos">
+                <div class="carousel" data-carousel>
+                    <button class="carousel-button previous" data-carousel-button="previous">&#8592;</button> <!--"data-carousel-button" is a data attribute-->
+                    <button class="carousel-button next" data-carousel-button="next">&#8594;</button>
+                    <ul data-slides>
+                        <li class="slide" data-active>
+                            <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80" alt="forest">
+                        </li>
+                        <li class="slide">
+                            <img src="https://images.unsplash.com/photo-1683752590938-e3b687c1f344?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2664&q=80" alt="mountainsDawn">
+                        </li>
+                        <li class="slide">
+                            <img src="https://images.unsplash.com/photo-1683544716690-6cce82d85e4b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80" alt="mountainsDay">
+                        </li>
+                        <li class="slide">
+                            <img src="https://images.unsplash.com/photo-1683085809775-d9ac53fcbe21?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2672&q=80" alt="planes">
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </body>
+</html>
